@@ -1,0 +1,39 @@
+.prob{ 
+position: absolute;
+text-align: center;
+margin-top: 16%;
+margin-left: 32%;
+width: 520px;
+z-index: 2;
+font-size: 2.9rem;
+}
+.probmain{ color: black;
+position: absolute;
+text-align: center;
+padding: .3rem;
+margin-top: 6%;
+margin-left: 26%;
+width: 730px;
+height: 310px;
+z-index: 2;
+}
+.preloader { opacity: .5;
+  position: fixed;
+  left: 0%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #e0e0e0;
+  z-index: 3;
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
